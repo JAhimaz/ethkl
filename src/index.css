@@ -1,0 +1,36 @@
+:root {
+  font-family: Consolas, monaco, monospace;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #030303;
+  display: flex;
+  justify-content: center;
+  color: #F3F3F3;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  place-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 1280px;
+  }
+}
+
+/* give a no styling */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
